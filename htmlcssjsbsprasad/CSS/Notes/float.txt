@@ -1,0 +1,3 @@
+Float will make elements come out of the control flow and can float anywhere in the page
+
+float:left/start/end/right
