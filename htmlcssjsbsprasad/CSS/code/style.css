@@ -1,0 +1,22 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color:rgb(15, 15, 14);
+    font-size: 100px;
+    color: rgb(245, 248, 252);
+    transition:all 5s ease;
+ 
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    transform: rotate(45deg);
+}
+.box:hover{
+    background-color: rgb(50, 34, 194);
+     transform:translatex(400px); 
+    transform: rotate(30deg);
+    transition-duration: 20px;
+    
+}
